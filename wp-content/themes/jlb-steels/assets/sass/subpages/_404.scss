@@ -1,0 +1,33 @@
+/*
+** 404
+*/
+
+.page_404 {
+  .page-content {
+    .error-404 {
+      font-weight: 500;
+      letter-spacing: 3em;
+      text-transform: uppercase;
+      margin-bottom: 17px;
+      text-indent: 46px;
+    }
+    .name-404 {
+      font-size: 150px;
+      font-weight: 800;
+      line-height: 0.8;
+      margin-bottom: 13px;
+      @media (min-width: 992px) {
+        font-size: 200px;
+      }
+    }
+    .content-404 {
+      text-transform: uppercase;
+      p:first-child {
+        margin-bottom: 10px;
+        @media (min-width: 768px) {
+          margin-bottom: -4px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/*
+** Service Extension
+*/
+
+.service-item.horizontal-item {
+  .media-links {
+    z-index: 5;
+  }
+  .item-content {
+    ul.list-styled  li {
+      position: relative;
+      padding: 9px 0;
+      line-height: 1;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+  .shadow-heading {
+    font-size: 130px;
+  }
+  }
+}
+
+.service-bg {
+  background-image: url("../../themes/jlb-steels/img/parallax/service-bg.jpg");
+}
+.service-bg2 {
+  background-image: url("../../themes/jlb-steels/img/parallax/service-bg2.jpg");
+}
+
+.vertical-item.service-padding {
+  position: relative;
+  margin-left: -3px;
+  margin-right: -3px;
+  z-index: 10;
+  .item-content {
+    padding: 18px 10px 13px;
+    @media (min-width: 1200px) {
+      padding: 28px 30px 23px;
+    }
+  }
+}
