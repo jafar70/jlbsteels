@@ -6,7 +6,7 @@
 				$img_url   = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "large" );
 				$image_alt = get_post_meta( $image_id, '_wp_attachment_image_alt', true );
 			?>
-			<img src="<?php echo esc_url( $img_url[0] ); ?>" alt="<?php echo esc_html( $image_alt ); ?>">
+			<img class="lazy" data-src="<?php echo esc_url( $img_url[0] ); ?>" alt="<?php echo esc_html( $image_alt ); ?>">
 		</div><!-- .post-thumbnail -->
 		<div class="item-content">
 			<header class="entry-header">
